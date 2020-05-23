@@ -1,10 +1,8 @@
-FROM ubuntu
+FROM node:current-slim
+RUN  mkdir app
 WORKDIR /app
-#from where to where
-COPY package.json /app 
+COPY package.json .
 RUN npm install
-COPY . /app
-CMD node app.js
-EXPOSE 3000
-
-
+EXPOSE 8000
+COPY  .  .
+CMD [ "node", "app.js" ]
