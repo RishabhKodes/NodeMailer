@@ -1,8 +1,7 @@
-FROM node:current-slim
-RUN  mkdir app
-WORKDIR /app
-COPY package.json .
-RUN npm install
-EXPOSE 8000
-COPY  .  .
-CMD [ "node", "app.js" ]
+FROM node:latest
+RUN  mkdir -p /root/hack
+WORKDIR   /root/hack/
+COPY   .  .
+RUN  npm install
+EXPOSE  3000
+CMD  ["node", "app.js"]
