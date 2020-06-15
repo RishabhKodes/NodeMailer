@@ -60,5 +60,5 @@ Contributions are what make the open source community such an amazing place to b
 **Project Link -** [Deployed](http://134.209.150.56:3000)
 
 <p align="center">
-Made with :heart: by e33or_assasin
+Made with :heart:   by e33or_assasin
 </p>
