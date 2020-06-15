@@ -58,3 +58,7 @@ Contributions are what make the open source community such an amazing place to b
 [Email](rishabhbhandari6@gmail.com)
 
 **Project Link -** [Deployed](http://134.209.150.56:3000)
+
+<p align="center">
+Made with :heart: by e33or_assasin
+</p>
